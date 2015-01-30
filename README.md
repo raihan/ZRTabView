@@ -3,7 +3,7 @@ An easy lightweight tab bar controller that is scrollable and tab bar items are 
 
 **Sample screenshots**
 
-<img src="<img src=“…/ScreenShot.png" width="200" />" width="200" />
+<img src="https://raw.githubusercontent.com/raihan/ZRTabView/master/ZRTabView/ScreenShot.png" width="200" />
 
 **Usage sample**
 
