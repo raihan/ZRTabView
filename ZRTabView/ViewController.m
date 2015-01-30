@@ -10,7 +10,7 @@
 #import "ZRTabView/ZRTabView.h"
 #import "TestViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <ZRTabViewDelegate>
 
 @end
 
@@ -19,7 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    [self initializeTabView];
+}
+
+- (void) initializeTabView
+{
     TestViewController *test1 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"testViewController"];
     
     TestViewController *test2 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"testViewController"];
@@ -29,7 +33,13 @@
     [test3.view setBackgroundColor:[UIColor orangeColor]];
     
     ZRTabView *tabView = [[ZRTabView alloc] initWithPoint:CGPointMake(0, 0) withViews:[NSMutableArray arrayWithObjects:test1, test2, test3, nil] viewsNameArray:[NSMutableArray arrayWithObjects:@"ANYTHING", @"ANYTHING MORE", @"ANY WISH YOU WANT TO WRITE", nil] initialSelection:0];
+    tabView.delegate = self;
+    
     [self.view addSubview:tabView];
+}
+
+-(void)didSelectTabBarWidgetIndex:(int)index
+{
 }
 
 - (void)didReceiveMemoryWarning {

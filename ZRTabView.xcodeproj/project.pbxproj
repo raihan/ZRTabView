@@ -18,6 +18,7 @@
 		202620AE1A7C0CC900526F5C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202620AD1A7C0CC900526F5C /* TestViewController.m */; };
 		202620B11A7C0D2300526F5C /* btn_bg_black_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 202620AF1A7C0D2300526F5C /* btn_bg_black_large.png */; };
 		202620B21A7C0D2300526F5C /* btn_bg_gray_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 202620B01A7C0D2300526F5C /* btn_bg_gray_large.png */; };
+		202620B41A7C15E800526F5C /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 202620B31A7C15E800526F5C /* ScreenShot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		202620AD1A7C0CC900526F5C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		202620AF1A7C0D2300526F5C /* btn_bg_black_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_bg_black_large.png; sourceTree = "<group>"; };
 		202620B01A7C0D2300526F5C /* btn_bg_gray_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_bg_gray_large.png; sourceTree = "<group>"; };
+		202620B31A7C15E800526F5C /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				202620AC1A7C0CC900526F5C /* TestViewController.h */,
 				202620AD1A7C0CC900526F5C /* TestViewController.m */,
 				2026208C1A7C094B00526F5C /* Main.storyboard */,
+				202620B31A7C15E800526F5C /* ScreenShot.png */,
 				2026208F1A7C094B00526F5C /* Images.xcassets */,
 				202620911A7C094B00526F5C /* LaunchScreen.xib */,
 				202620A81A7C0A3800526F5C /* ZRTabView */,
@@ -226,6 +229,7 @@
 				2026208E1A7C094B00526F5C /* Main.storyboard in Resources */,
 				202620931A7C094B00526F5C /* LaunchScreen.xib in Resources */,
 				202620901A7C094B00526F5C /* Images.xcassets in Resources */,
+				202620B41A7C15E800526F5C /* ScreenShot.png in Resources */,
 				202620B11A7C0D2300526F5C /* btn_bg_black_large.png in Resources */,
 				202620B21A7C0D2300526F5C /* btn_bg_gray_large.png in Resources */,
 			);
