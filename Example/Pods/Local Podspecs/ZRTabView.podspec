@@ -10,19 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "ZRTabView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ZRTabView."
-  s.description      = <<-DESC
-                       An optional longer description of ZRTabView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ZRTabView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "An easy lightweight tab bar controller that is scrollable and tab bar items are flexible with text sizes."
+  s.homepage         = "https://github.com/raihan/ZRTabView"
+  # s.screenshots     = "https://raw.githubusercontent.com/raihan/ZRTabView/master/ZRTabView/ScreenShot.png"
   s.license          = 'MIT'
-  s.author           = { "raihan" => "raihan.zbr@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZRTabView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Abdullah Md. Zubair" => "raihan.zbr@gmail.com" }
+  s.source           = { :git => "https://github.com/raihan/ZRTabView.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/raihan49'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -33,6 +27,5 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = 'UIKit'
 end
