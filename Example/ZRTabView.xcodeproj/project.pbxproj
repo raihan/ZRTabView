@@ -10,6 +10,9 @@
 		0074BE74EAEB3A0ED0E28FF2 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04793CEAF33F9741166FFFE4 /* libPods-Tests.a */; };
 		20CD7A5A1A7D375700DBD9FB /* ZRTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD7A591A7D375700DBD9FB /* ZRTestViewController.m */; };
 		20CD7A721A7D55CB00DBD9FB /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 20CD7A711A7D55CB00DBD9FB /* ScreenShot.png */; };
+		20CD7A751A7D56FD00DBD9FB /* ZRTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD7A741A7D56FD00DBD9FB /* ZRTabView.m */; };
+		20CD7A791A7D572000DBD9FB /* btn_bg_black_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 20CD7A771A7D572000DBD9FB /* btn_bg_black_large.png */; };
+		20CD7A7A1A7D572000DBD9FB /* btn_bg_gray_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 20CD7A781A7D572000DBD9FB /* btn_bg_gray_large.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,6 +47,10 @@
 		20CD7A581A7D375700DBD9FB /* ZRTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRTestViewController.h; sourceTree = "<group>"; };
 		20CD7A591A7D375700DBD9FB /* ZRTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRTestViewController.m; sourceTree = "<group>"; };
 		20CD7A711A7D55CB00DBD9FB /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
+		20CD7A731A7D56FD00DBD9FB /* ZRTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZRTabView.h; path = ../../Pod/Classes/ZRTabView.h; sourceTree = "<group>"; };
+		20CD7A741A7D56FD00DBD9FB /* ZRTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZRTabView.m; path = ../../Pod/Classes/ZRTabView.m; sourceTree = "<group>"; };
+		20CD7A771A7D572000DBD9FB /* btn_bg_black_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_bg_black_large.png; path = ../../Pod/Assets/btn_bg_black_large.png; sourceTree = "<group>"; };
+		20CD7A781A7D572000DBD9FB /* btn_bg_gray_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_bg_gray_large.png; path = ../../Pod/Assets/btn_bg_gray_large.png; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZRTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +107,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20CD7A761A7D570300DBD9FB /* ZRTabView */ = {
+			isa = PBXGroup;
+			children = (
+				20CD7A731A7D56FD00DBD9FB /* ZRTabView.h */,
+				20CD7A741A7D56FD00DBD9FB /* ZRTabView.m */,
+				20CD7A771A7D572000DBD9FB /* btn_bg_black_large.png */,
+				20CD7A781A7D572000DBD9FB /* btn_bg_gray_large.png */,
+			);
+			name = ZRTabView;
+			sourceTree = "<group>";
+		};
 		230A142734AE1C4BBE4CBD9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +174,7 @@
 				6003F5A6195388D20070C39A /* ZRViewController.m */,
 				20CD7A581A7D375700DBD9FB /* ZRTestViewController.h */,
 				20CD7A591A7D375700DBD9FB /* ZRTestViewController.m */,
+				20CD7A761A7D570300DBD9FB /* ZRTabView */,
 				20CD7A711A7D55CB00DBD9FB /* ScreenShot.png */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -285,9 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
+				20CD7A791A7D572000DBD9FB /* btn_bg_black_large.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				20CD7A721A7D55CB00DBD9FB /* ScreenShot.png in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				20CD7A7A1A7D572000DBD9FB /* btn_bg_gray_large.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CD7A751A7D56FD00DBD9FB /* ZRTabView.m in Sources */,
 				6003F59E195388D20070C39A /* ZRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

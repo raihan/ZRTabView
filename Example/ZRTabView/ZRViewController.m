@@ -8,6 +8,7 @@
 
 #import "ZRViewController.h"
 #import "ZRTestViewController.h"
+#import "ZRTabView.h"
 
 @interface ZRViewController () <ZRTabViewDelegate>
 
