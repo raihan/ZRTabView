@@ -1,0 +1,14 @@
+PODS:
+  - ZRTabView (0.1.0)
+
+DEPENDENCIES:
+  - ZRTabView (from `../`)
+
+EXTERNAL SOURCES:
+  ZRTabView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZRTabView: 16222fafd89d3f24e188bf1a0e96fc2ed23c8344
+
+COCOAPODS: 0.35.0
