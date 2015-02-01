@@ -1,4 +1,8 @@
 # ZRTabView
+================
+[![Pod Version](http://img.shields.io/cocoapods/v/ZRTabView.svg)](https://cocoadocs.org/docsets/ZRTabView)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+
 An easy lightweight tab bar controller that is scrollable and tab bar items are flexible with text sizes.
 
 **Sample screenshots**
