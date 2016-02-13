@@ -10,7 +10,7 @@ An easy lightweight tab bar controller that is scrollable and tab bar items are 
 <img src="https://github.com/raihan/ZRTabView/blob/master/Example/ZRTabView/ScreenShot.png" width="200" />
 
 ## Installation
-Available in [Cocoa Pods](http://cocoapods.org/?q=ZRTabView)
+Available in [CocoaPods](http://cocoapods.org/?q=ZRTabView)
 
 ```
 pod 'ZRTabView', '~> 0.1.0'
